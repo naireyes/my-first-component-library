@@ -1,0 +1,19 @@
+input {
+  color: lightgray;
+  padding: 5px 20px;
+  border-color: lightgray;
+  font-family: "Roboto Condensed", sans-serif;
+}
+input-medium {
+  color: lightgray;
+  padding: 8px 20px;
+  border-color: lightgray;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+input-large {
+  color: lightgray;
+  padding: 11px 20px;
+  border-color: lightgray;
+  font-family: "Roboto Condensed", sans-serif;
+}

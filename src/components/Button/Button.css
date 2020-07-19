@@ -1,38 +1,49 @@
-button {
+/* button {
   border-radius: 2px;
   padding: 5px 25px;
   border-width: 2px;
   border-style: solid;
-}
+} */
 
 .button-primary {
-  background-color: #0069d9;
+  background-color: #33a0ff;
   color: white;
-  border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  border-radius: 3px;
+  padding: 10px 25px;
+  border: #33a0ff;
 }
 
 .button-primary:hover {
-  background-color: #0b54a8;
+  background-color: #2578c0;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #2578c0;
+  cursor: pointer;
 }
 
-.button-primary:outline {
-  color: #0f66c8;
+.button-primary-outline {
+  background-color: white;
+  color: #33a0ff;
+  border-radius: 3px;
+  padding: 10px 25px;
+  border: #33a0ff;
+  border-style: solid;
+}
+
+.button-primary-filled {
+  background-color: #ebf1f7;
+  color: #33a0ff;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #33a0ff;
 }
 
 .button-warning {
-  background-color: #fcc131;
+  background-color: #ffc600;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
+  padding: 10px 25px;
   border: #0069d9;
 }
 
@@ -40,59 +51,154 @@ button {
   background-color: #8b7333;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
+  padding: 10px 25px;
   border: #0069d9;
+  cursor: pointer;
 }
 
-.button-warning:outline {
-  background-color: #b89746;
-  color: white;
+.button-warning-outline {
+  background-color: white;
+  color: #ffc600;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #ffc600;
+  border-style: solid;
+}
+
+.button-warning-filled {
+  background-color: #f1ebdc;
+  color: #fcc131;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #f1ebdc;
 }
 
 .button-success {
-  background-color: #32a54a;
+  background-color: #0ad00a;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #0ad00a;
 }
+
 .button-success:hover {
   background-color: #065e19;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: "#0069D9";
+  padding: 10px 25px;
+  border: #065e19;
+  cursor: pointer;
 }
-.button-success:outline {
-  background-color: #065e19;
-  color: white;
+
+.button-success-outline {
+  background-color: white;
+  color: #0ad00a;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #0ad00a;
+  border-style: solid;
+}
+
+.button-success-filled {
+  background-color: #d3f0da;
+  color: #0ad00a;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #d3f0da;
 }
 
 .button-danger {
-  background-color: #dc3545;
+  background-color: #ff4252;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #ff4252;
 }
+
 .button-danger:hover {
   background-color: #94343d;
   color: white;
   border-radius: 2px;
-  padding: 5px 25px;
-  border: #0069d9;
+  padding: 10px 25px;
+  border: #94343d;
+  cursor: pointer;
+}
+
+.button-danger-outline {
+  background-color: white;
+  color: #ff4252;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #ff4252;
+  border-style: solid;
+}
+
+.button-danger-filled {
+  background-color: #f8e8ea;
+  color: #ff4252;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #ecd8da;
+}
+
+.button-default {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #dc3545;
+}
+
+/* .button-default:hover {
+    background-color: #black;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 25px;
+    border: #94343d;
+  } */
+
+.button-default-outline {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: black;
+  border-style: solid;
+}
+
+.button-default-filled {
+  background-color: #929090;
+  color: black;
+  border-radius: 2px;
+  padding: 10px 25px;
+  border: #929090;
 }
 
 .button-large {
-  padding: 10px 50px;
+  padding: 20px 50px;
 }
 
-.button-small {
-  padding: 2.5px 15px;
+.button-addToCart {
+  background-color: #ebf1f7;
+  color: #33a0ff;
+  text-align: left;
+  border-radius: 2px;
+  padding: 20px 20px;
+  border: #33a0ff;
+  background-image: url("./cart_2.png");
+  background-repeat: no-repeat;
+  background-position: 1em;
+}
+
+.button-addToFav {
+  background-color: #ebf1f7;
+  color: #33a0ff;
+  border-radius: 2px;
+  padding: 20px 20px;
+  border: #33a0ff;
+  background-image: url("./hearts.png");
+  background-position: 1em;
+  background-position-x: 1em;
+  background-repeat: no-repeat;
+  /* background: yellow url("arrow1.gif") no-repeat 95% 50%; */
 }
