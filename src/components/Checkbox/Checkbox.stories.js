@@ -8,5 +8,5 @@ function onClick() {
 }
 
 storiesOf("Checkbox", module)
-  .add("Checkbox Black", () => <Checkbox label="Redeem" type="small" />)
+  .add("Checkbox Black", () => <Checkbox label="Redeem" type="small" black />)
   .add("Checkbox Blue", () => <Checkbox label="Redeem" type="small" />);

@@ -8,13 +8,6 @@ const Forms = (props) => {
       <input type="text" label="Email" placeholder="Email" />
     </div>
   );
-  const Forms = (props) => {
-    let classList = "";
-    let types = ["small", "medium", "large"];
-    if (types.includes(props.type)) {
-      classList += ` button-${props.type}`;
-    }
-  };
 };
 
 export default Forms;
